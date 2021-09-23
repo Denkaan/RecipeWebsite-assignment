@@ -215,20 +215,64 @@
     width: 200px;
 }
 
+@media screen and (max-width: 440px) {
+    .home__container {
+    background-image: none;
+    display: block;
+    position: relative;
+    background-color: #131313;
+    text-align: center;
+    }
+    
+}
+
 /* Recipe CSS */
 
 .recipe__container {
     display: block;
     position: relative;
-    background-color: white;
+    background-color: #303030;
+    background-image: none;
+    background-size: 100%;
     text-align: center;
+}
+
+.recipe__breakfast {
     color: #131313;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recipe__breakfast figure {
+    color: white;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+
+.recipe__breakfast figure img {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+}
+
+.breakfast__links {
+    color: #999999;
+}
+
+.breakfast__links:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
 }
 
 
 /* Footer CSS */
 .footer__container {
-    background-color: #141414;
+    background-color: #424242;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;

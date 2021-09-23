@@ -87,7 +87,7 @@
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -176,7 +176,7 @@
     display: block;
     position: relative;
     background-color: white;
-    background-image: url("/Project/Images/food-header.jpg");
+    background-image: url("/Project/Images/foodheader4.jpg");
     background-size: 100%;
     text-align: center;
 }
@@ -214,6 +214,17 @@
     box-shadow: gray 0 0 10px;
     width: 200px;
 }
+
+/* Recipe CSS */
+
+.recipe__container {
+    display: block;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    color: #131313;
+}
+
 
 /* Footer CSS */
 .footer__container {

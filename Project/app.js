@@ -44,3 +44,7 @@ document.getElementById("dessert__navbar").onclick = function () {
 document.getElementById("footer__navbar").onclick = function () {
     location.href = "#footer";
 };
+
+document.getElementById("special__navbar").onclick = function () {
+    location.href = "#special";
+};

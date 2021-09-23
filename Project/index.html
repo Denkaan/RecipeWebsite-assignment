@@ -25,7 +25,7 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a id="breakfast__navbar" class="navbar__links">Frukost</a>
+                    <a id="breakfast__navbar" data-offset="100" class="navbar__links">Frukost</a>
                 </li>
                 <li class="navbar__item">
                     <a id="dinner__navbar" class="navbar__links">Middag</a>
@@ -34,7 +34,7 @@
                     <a id="dessert__navbar" class="navbar__links">Dessert</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Specialkost</a>
+                    <a id="special__navbar" class="navbar__links">Specialkost</a>
                 </li>
                 <li class="navbar__item">
                     <a id="footer__navbar" class="navbar__links">Kontakta oss</a>
@@ -46,7 +46,7 @@
     <!-- Home Page Section -->
     <div class="home__container" id="home">
         <h2>Dagens recept</h2>
-        <div class="home__recipes"">
+        <div class="home__recipes">
             <figure>
                 <img src="/Project/Images/rsz_havregrynsgrot.jpg" alt="">
                 <figcaption>Havregrynsgröt 
@@ -241,20 +241,50 @@
         </div>
     </div>
 
+    <!-- Special section -->
+    <div class="special__container" id="special">
+        <h2>Specialkost</h2>
+        <div class="recipe__special">
+            <figure>
+                <img src="/Project/Images/smoothiebowl_med_bjornbar_och_apelsin.jpg" alt="">
+                <figcaption>Smoothiebowl med tillbehör (Glutenfri)
+                    <p>
+                        <a href="https://www.ica.se/recept/smoothiebowl-med-bjornbar-och-apelsin-724223/" class="special__links">Till recept -></a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="/Project/Images/svamptacos_med_spetskal_och_gron_tahinisas.jpg" alt="">
+                <figcaption>Svamptacos med tillbehör (Vegansk)
+                    <p>
+                        <a href="https://www.ica.se/recept/svamptacos-med-spetskal-och-gron-tahinisas-727484/" class="special__links">Till recept -></a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="/Project/Images/ananassorbet.jpg" alt="">
+                <figcaption>Ananassorbet (laktosfri)
+                    <p>
+                        <a href="https://www.ica.se/recept/ananassorbet-726170/" class="special__links">Till recept -></a>
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
 
     <!-- Footer Section -->
     <div class="footer__container" id="footer">
         <div class="footer__links">
             <div class="footer__link--wrapper">
                 <div class="footer__link--items">
-                    <h2>Om Dailyfoods</h2>
+                    <h3>Om Dailyfoods</h3>
                     <a href="mailto:dailyfoods@hotmail.com">Skicka in ditt recept</a>
                     <a href="/">Karriär</a>
                     <a href="/">Kontakta Oss</a>
                     <a href="/">Användarvillkor</a>
                 </div>
                 <div class="footer__newsletter">
-                    <h2>Nyhetsbrev</h2>
+                    <h3>Nyhetsbrev</h3>
                     <form>
                         <input type="text" name="Email" placeholder="Email">
                         <input type="submit" name="Prenumerera" value="Prenumerera">

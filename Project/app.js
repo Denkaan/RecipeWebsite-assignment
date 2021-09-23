@@ -20,3 +20,27 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+document.getElementById("navbar__logo").onclick = function () {
+    location.href = "#home";
+};
+
+document.getElementById("footer__logo").onclick = function () {
+    location.href = "#home";
+};
+
+document.getElementById("breakfast__navbar").onclick = function () {
+    location.href = "#breakfast";
+};
+
+document.getElementById("dinner__navbar").onclick = function () {
+    location.href = "#dinner";
+};
+
+document.getElementById("dessert__navbar").onclick = function () {
+    location.href = "#dessert";
+};
+
+document.getElementById("footer__navbar").onclick = function () {
+    location.href = "#footer";
+};

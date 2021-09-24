@@ -21,13 +21,20 @@ const highlightMenu = () => {
     console.log(scrollPos);
   
     // adds 'highlight' class to my menu items
-    if (window.innerWidth > 800 && scrollPos < 800) {
-      breakfastMenu.classList.add('highlight');
+    if (window.innerWidth > 800 && scrollPos < 300) {
+      breakfastMenu.classList.remove('highlight');
       footerMenu.classList.remove('highlight');
       dinnerMenu.classList.remove('highlight');
       specialMenu.classList.remove('highlight');
       dessertMenu.classList.remove('highlight');
       return;
+    } else if (window.innerWidth > 800 && scrollPos < 800) {
+      breakfastMenu.classList.add('highlight');
+      footerMenu.classList.remove('highlight');
+      dinnerMenu.classList.remove('highlight');
+      specialMenu.classList.remove('highlight');
+      dessertMenu.classList.remove('highlight');
+        return;
     } else if (window.innerWidth > 800 && scrollPos < 1300) {
       dinnerMenu.classList.add('highlight');
       footerMenu.classList.remove('highlight');
@@ -51,7 +58,7 @@ const highlightMenu = () => {
         return;
     }
   
-    if ((elem && window.innerWIdth < 800 && scrollPos < 600) || elem) {
+    if ((elem && window.innerWIdth < 800 && scrollPos < 300) || elem) {
       elem.classList.remove('highlight');
     }
   };

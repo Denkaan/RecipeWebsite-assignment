@@ -159,7 +159,7 @@ document.getElementById("dessert__navbar").onclick = function () {
   EPPZScrollTo.scrollVerticalToElementById('dessert', 100)};
 
 document.getElementById("footer__navbar").onclick = function () {
-  EPPZScrollTo.scrollVerticalToElementById('special', 100)};
+  EPPZScrollTo.scrollVerticalToElementById('footer', 100)};
 
 document.getElementById("special__navbar").onclick = function () {
-  EPPZScrollTo.scrollVerticalToElementById('footer', 100)};
+  EPPZScrollTo.scrollVerticalToElementById('special', 100)};

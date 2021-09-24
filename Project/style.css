@@ -183,7 +183,7 @@
     background-image: url("/Project/Images/foodheader4.jpg");
     background-size: 100%;
     text-align: center;
-    height: 350px;
+    min-height: 350px;
 }
 
 .home__recipes {
@@ -239,7 +239,7 @@
     background: -webkit-linear-gradient(to right, #000000, #1a1a1a, #3f3f3f);
     background: linear-gradient(to right, #3f3f3f, #1a1a1a, #000000);
     text-align: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .recipe__breakfast {
@@ -282,7 +282,7 @@
     background: -webkit-linear-gradient(to right, #000000, #1a1a1a, #3f3f3f);
     background: linear-gradient(to right, #3f3f3f, #1a1a1a, #000000);
     text-align: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .recipe__dinner {
@@ -325,7 +325,7 @@
     background: -webkit-linear-gradient(to right, #000000, #1a1a1a, #3f3f3f);
     background: linear-gradient(to right, #3f3f3f, #1a1a1a, #000000);
     text-align: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .recipe__dessert {
@@ -368,7 +368,7 @@
     background: -webkit-linear-gradient(to right, #000000, #1a1a1a, #3f3f3f);
     background: linear-gradient(to right, #3f3f3f, #1a1a1a, #000000);
     text-align: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 .recipe__special {
